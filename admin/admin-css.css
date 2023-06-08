@@ -1,0 +1,89 @@
+/* form container (add-new-category.php)  */
+ .form-container {
+    background: #fff;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 7px;
+    width: 50%;
+ }
+ .form-container form input[type=text] {
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 10px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    outline: none;
+ }
+
+ .form-container  h2 {
+    text-align: center;
+ }
+
+ .login-btn {
+    margin: 2px;
+    text-align: center;
+    padding: 8px;
+    background: #3F00FF;
+    color: #fff;
+    font-size: 11px;
+    text-decoration: none;
+    border-radius: 20px;
+    /* display: inline-block; */
+    display: block;
+    margin: 10px auto;
+    width: 35%;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+.success {
+    color: green;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+/* end of form container (add-new-category.php)  */
+/* Responsive Table (view-categories.php) */
+.responsive-table {overflow-x:auto;}
+.table-admin tr, td, th, tbody {
+   border: 1px solid black;
+    padding: 10px;
+    /* margin: 0 auto; */
+}
+.table-admin { 
+   border-collapse: collapse;
+   /* padding: 10px; */
+   margin: 10px auto;
+   width: 100%;
+   border-radius: 2px;
+   text-align: center;
+}
+.text-center {
+   text-align: center;
+}
+.pagination-links {
+   text-align: center;
+   padding: 10px;
+}
+.pagination-links a {
+   padding: 5px 8px;
+   border: 1px solid black;
+   margin: 3px 4px;
+   text-align: center;
+   text-decoration: none;
+   color: black;
+}
+.pagination-links a:hover {
+   background-color: black;
+   color: #fff;
+}
+/* end of Responsive Table (view-categories.php) */
